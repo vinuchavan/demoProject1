@@ -29,13 +29,13 @@ public class TestCase1 {
 	@Test
 	public void Test1() {
 		driver.get("https://www.google.com/");
-		System.out.println("Test 1 Title is "+driver.getTitle());
+		System.out.println("Test 1 Title is " +driver.getTitle());
 	}
 
 	@Test
 	public void Test2() {
 		driver.get("https://www.google.com/");
-		System.out.println("Test 2 Title is "+driver.getTitle());
+		System.out.println("Test 2 Title is " +driver.getTitle());
 	}
 
 	@AfterMethod
