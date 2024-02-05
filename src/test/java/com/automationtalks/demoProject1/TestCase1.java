@@ -37,7 +37,7 @@ public class TestCase1 {
 		driver.get("https://www.google.com/");
 		System.out.println("Test 2 Title is " +driver.getTitle());
 	}
-
+	
 	@AfterMethod
 	public void quit() {
 		driver.close(); // Close the browser before quitting, it won't show SocketError
