@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T11:50:01Z" name="Suite" finished-at="2024-02-09T11:50:07Z" duration-ms="5953">
+  <suite started-at="2024-02-11T07:19:34Z" name="Suite" finished-at="2024-02-11T07:19:43Z" duration-ms="8709">
     <groups>
     </groups>
-    <test started-at="2024-02-09T11:50:01Z" name="Test" finished-at="2024-02-09T11:50:07Z" duration-ms="5953">
+    <test started-at="2024-02-11T07:19:34Z" name="Test" finished-at="2024-02-11T07:19:43Z" duration-ms="8709">
       <class name="com.automationtalks.demoProject1.TestCase1">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@74e28667]" started-at="2024-02-09T11:50:01Z" name="launchDriver" finished-at="2024-02-09T11:50:03Z" duration-ms="1478" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@7bba5817]" started-at="2024-02-11T07:19:34Z" name="launchDriver" finished-at="2024-02-11T07:19:36Z" duration-ms="2368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test1()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@74e28667]" started-at="2024-02-09T11:50:03Z" name="Test1" finished-at="2024-02-09T11:50:04Z" duration-ms="1668" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@7bba5817]" started-at="2024-02-11T07:19:36Z" name="Test1" finished-at="2024-02-11T07:19:39Z" duration-ms="2126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@74e28667]" started-at="2024-02-09T11:50:04Z" name="quit" finished-at="2024-02-09T11:50:05Z" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@7bba5817]" started-at="2024-02-11T07:19:39Z" name="quit" finished-at="2024-02-11T07:19:39Z" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@74e28667]" started-at="2024-02-09T11:50:05Z" name="launchDriver" finished-at="2024-02-09T11:50:05Z" duration-ms="861" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@7bba5817]" started-at="2024-02-11T07:19:39Z" name="launchDriver" finished-at="2024-02-11T07:19:40Z" duration-ms="1113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test2()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@74e28667]" started-at="2024-02-09T11:50:05Z" name="Test2" finished-at="2024-02-09T11:50:07Z" duration-ms="1469" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@7bba5817]" started-at="2024-02-11T07:19:40Z" name="Test2" finished-at="2024-02-11T07:19:43Z" duration-ms="2470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@74e28667]" started-at="2024-02-09T11:50:07Z" name="quit" finished-at="2024-02-09T11:50:07Z" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.automationtalks.demoProject1.TestCase1@7bba5817]" started-at="2024-02-11T07:19:43Z" name="quit" finished-at="2024-02-11T07:19:43Z" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
