@@ -23,16 +23,16 @@ public class TestCase1 {
 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
-		options.addArguments("--headless"); //for headless mode
-		options.addArguments("--window-size=800,600");//The invisible browser window is only 800x600 in size
+//		options.addArguments("--headless"); //for headless mode
+//		options.addArguments("--window-size=800,600");//The invisible browser window is only 800x600 in size
 		options.addArguments("start-maximized"); // open Browser in maximized mode
-		options.addArguments("disable-infobars"); // disabling infobars
+		options.addArguments("disable-infobars"); // disabling info-bars
 		options.addArguments("--disable-extensions"); // disabling extensions
-		options.addArguments("--disable-gpu"); // applicable to windows os only
+//		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-		options.addArguments("--no-sandbox");
+//		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-blink-features='BlockCredentialedSubresources'");
-		options.addArguments("--whitelisted-ips='10.5.243.86'");
+//		options.addArguments("--whitelisted-ips='10.5.243.86'");
 		driver = new ChromeDriver(service);
 	}
 
