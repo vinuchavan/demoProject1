@@ -17,7 +17,7 @@ public class TestCase1 {
 		// TODO Auto-generated method stub
 		System.setProperty("org.apache.commons.logging.Log",
 				"org.apache.commons.logging.impl.Jdk14Logger");
-		System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinod.chavan\\eclipse-workspace2022\\demoProject1\\lib\\chromedriver.exe");
 		//		WebDriverManager.chromedriver().clearResolutionCache().setup();
 		ChromeDriverService service = new ChromeDriverService.Builder().withLogOutput(System.out).build();
 
