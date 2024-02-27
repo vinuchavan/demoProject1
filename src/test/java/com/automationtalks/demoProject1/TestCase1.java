@@ -1,5 +1,6 @@
 package com.automationtalks.demoProject1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -20,7 +21,6 @@ public class TestCase1 {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinod.chavan\\eclipse-workspace2022\\demoProject1\\lib\\chromedriver.exe");
 		//		WebDriverManager.chromedriver().clearResolutionCache().setup();
 		ChromeDriverService service = new ChromeDriverService.Builder().withLogOutput(System.out).build();
-
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 //		options.addArguments("--headless"); //for headless mode
@@ -38,10 +38,20 @@ public class TestCase1 {
 
 	@Test
 	public void Test1() {
-		driver.get("https://www.google.com/");
-		System.out.println("Test 1 Title is " +driver.getTitle());
+		driver.get("http://appupqa.ecotechservices.com/MemberUser/Login");
+		driver.findElement(By.id("Emailid")).sendKeys("ecotech150@gmail.com");
+		driver.findElement(By.id("Password")).sendKeys("Pass@123");
+		driver.findElement(By.id("Login")).click();
+		if(driver.getPageSource().contains("Vinod_Eco150"))
+		  {
+		    System.out.println("Case PASS");
+		  }
+		else
+		  {
+		    System.out.println("Case FAIL");
+		  }
 	}
-
+	
 	@Test
 	public void Test2() {
 		driver.get("https://www.google.com/");
@@ -50,7 +60,7 @@ public class TestCase1 {
 	
 	@AfterMethod
 	public void quit() {
-		driver.close(); // Close the browser before quitting, it won't show SocketError
-		driver.quit(); 
+//		driver.close(); // Close the browser before quitting, it won't show SocketError
+//		driver.quit(); 
 	}
 }
